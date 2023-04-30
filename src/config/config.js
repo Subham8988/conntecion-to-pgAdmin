@@ -4,9 +4,9 @@
 // const connection_object = ({
 //     host: 'localhost', // server name or IP address;
 //     port: 5432,
-//     database: 'user',
-//     user: 'subham',
-//     password: 'subham'
+//     database: '',
+//     user: '',
+//     password: ''
 // });
 
 // connection_object.connect(connection_object);
@@ -28,9 +28,9 @@ const client = new Client({
 //   port: your-port
     host: 'localhost', // server name or IP address;
     port: 5432,
-    database: 'user',
-    user: 'postgres',
-    password: 'subham'
+    database: '',
+    user: '',
+    password: ''
 });
 client.connect( (err) => {
      if (err) {
