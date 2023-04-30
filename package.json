@@ -1,0 +1,26 @@
+{
+  "name": "coneection_pgadmin",
+  "version": "1.0.0",
+  "description": "this application consist of connection to db with pg admin",
+  "main": "index.js",
+  "scripts": {
+    "start":" nodemon src/index.js",
+    "test": "snyk test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subham8988/conntecion-to-pgAdmin.git"
+  },
+  "keywords": [
+    "connection",
+    "node",
+    "sql",
+    "postgre"
+  ],
+  "author": "subham kumar mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subham8988/conntecion-to-pgAdmin/issues"
+  },
+  "homepage": "https://github.com/Subham8988/conntecion-to-pgAdmin#readme"
+}
